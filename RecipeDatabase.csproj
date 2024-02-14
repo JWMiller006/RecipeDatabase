@@ -14,4 +14,13 @@
     <Content Include="Icons\food.ico" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MillerInc">
+      <HintPath>MillerInc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Backend\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
